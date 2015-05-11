@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="normalize.css">
+        <link rel="stylesheet" href="reset.css">
+        <title>nuqneH Reset</title>
+    </head>
+
+    <body>
+
+
+
+        <article>article</article>
+        <aside>aside</aside>
+        <footer>footer</footer>
+        <header>header</header>
+        <hgroup>hgroup</hgroup>
+        <main>main</main>
+        <menu>menu</menu>
+        <nav>nav</nav>
+        <section>section</section>
+
+        <figure>
+            <div>figure > div</div>
+            <figcaption>figure > figcaption</figcaption>
+        </figure>
+        <details open>
+            <summary>details > summary</summary>
+            <div>details > div</div>
+        </details>
+
+        <style>
+            .pseudo:before { content: ':before'; }
+            .pseudo:after { content: ':after'; }
+        </style>
+        <div class="pseudo"></div>
+
+        <div>div</div>
+        <h1>h1</h1>
+        <h2>h2</h2>
+        <h3>h3</h3>
+        <h4>h4</h4>
+        <h5>h5</h5>
+        <h6>h6</h6>
+        <p>p</p>
+        <blockquote>blockquote</blockquote>
+        <address>address</address>
+        <pre>pre</pre>
+
+        <span>span</span>
+        <a>a</a>
+        <strong>strong</strong>
+        <b>b</b>
+        <em>em</em>
+        <i>i</i>
+        <s>s</s>
+        <q>q</q>
+        <mark>mark</mark>
+        <cite>cite</cite>
+        <time>time</time>
+        <abbr>abbr</abbr>
+        <dfn>dfn</dfn>
+        <small>small</small>
+        <sub>sub</sub>
+        <sup>sup</sup>
+        <var>var</var>
+        <code>code</code>
+        <samp>samp</samp>
+        <kbd>kbd</kbd>
+        <data value="">data</data>
+        <ins>ins</ins>
+        <del>del</del>
+
+
+        <ul>
+            <li>ul > li</li>
+        </ul>
+
+        <ol>
+            <li>ol > li</li>
+        </ol>
+
+        <dl>
+            <dt>dl > dt</dt>
+            <dd>dl > dd</dd>
+        </dl>
+
+        <table>
+            <caption>table > caption</caption>
+            <thead>
+                <tr>
+                    <th>table > thead > tr > th</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>table > tbody > tr > td</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>table > tfoot > tr > td</td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <form>form</form>
+        <label>label</label>
+
+        <fieldset>
+            <legend>fieldset > legend</legend>
+            <div>fieldset > div</div>
+        </fieldset>
+
+        <input type="text" value="input[type=text]">
+        <input type="email" value="input[type=email]">
+        <input type="tel" value="input[type=text]">
+        <input type="url" value="input[type=url]">
+        <input type="search" value="input[type=search]">
+        <input type="password" value="input[type=password]">
+        <textarea>textarea</textarea>
+        <input type="text" placeholder="input:placeholder">
+
+        <input type="reset" value="input[type=reset]">
+        <input type="submit" value="input[type=submit]">
+        <input type="button" value="input[type=button]">
+        <button>button</button>
+
+
+
+        <progress value="20" max="100"></progress>
+
+        <img src="temp/image-sample.jpg" width="300" height="300" alt="">
+
+        <iframe src="https://www.youtube.com/embed/5b7dNNapMCM" width="420" height="315"></iframe>
+
+        <object data="temp/flash-sample.swf" width="336" height="280"></object>
+
+        <canvas id="myCanvas" width="300" height="300"></canvas>
+
+        <script>
+            var c = document.getElementById("myCanvas");
+            var ctx = c.getContext("2d");
+            var grd = ctx.createLinearGradient(0,0,200,0);
+            grd.addColorStop(0,"red");
+            grd.addColorStop(1,"blue");
+            // Fill with gradient
+            ctx.fillStyle = grd;
+            ctx.fillRect(0,0,300,300);
+            ctx.font = "50px Arial";
+            ctx.strokeText("Canvas",60,150);
+        </script>
+
+        <video src="temp/video-sample.ogg" controls></video>
+
+        <audio src="temp/audio-sample.ogg" controls></audio>
+
+
+    </body>
+</html>

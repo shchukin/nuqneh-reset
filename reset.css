@@ -1,0 +1,244 @@
+*,
+*:before,
+*:after,
+input[type="search"] {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+* {
+    vertical-align: top;
+}
+
+* {
+    background-reaeat: no-repeat;
+    background-position: center center
+}
+
+a,
+abbr,
+dfn,
+cite,
+i,
+em,
+b,
+strong,
+sub,
+sup,
+span,
+time,
+small,
+mark,
+s,
+q,
+label,
+legend,
+code,
+var,
+samp,
+kbd,
+data,
+ins,
+del,
+*:before,
+*:after {
+    display: block;
+}
+
+pre,
+code,
+samp,
+kbd {
+    font-family: inherit;
+}
+
+ul, ol, menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+dd {
+    margin: 0;
+}
+
+
+hr,
+fieldset {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+
+p, dl, blockquote, pre, figure {
+    margin: 0;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+
+table {
+    width: 100%;
+    text-align: left;
+}
+
+caption {
+    text-align: inherit;
+}
+
+th {
+    font-weight: inherit;
+}
+
+th,
+td {
+    padding: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+strong, b {
+    font-weight: inherit;
+}
+
+mark {
+    background: none;
+    color: inherit;
+}
+
+em, i {
+    font-style: inherit;
+}
+
+s {
+    text-decoration: none;
+}
+
+ins,
+del {
+    text-decoration: none;
+}
+
+address,
+cite,
+dfn,
+var {
+    font-style: inherit;
+}
+
+small {
+    font-size: inherit;
+}
+
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+label {
+    cursor: inherit;
+}
+
+label[for] {
+    cursor: pointer;
+}
+
+sub,
+sup {
+    font-size: inherit;
+    line-height: inherit;
+    position: static;
+    vertical-align: top;
+}
+
+sup {
+    top: 0;
+}
+
+sub {
+    bottom: 0;
+}
+
+
+button,
+select,
+input,
+textarea {
+    font-weight: inherit;
+    font-family: inherit;
+    color: inherit;
+    letter-spacing: inherit;
+}
+
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 0;
+    background: none;
+    border: none;
+    text-align: inherit;
+}
+
+
+[type="text"],
+[type="email"],
+[type="tel"],
+[type="url"],
+[type="search"],
+[type="password"],
+textarea {
+    padding: 0;
+    border: none;
+    width: 100%;
+    background: none;
+}
+
+
+textarea {
+    resize: vertical;
+}
+
+iframe {
+    border: none;
+}
+
+progress {
+    width: 100%;
+}
+
+
+summary::-webkit-details-marker {
+    display:none;
+}
+
+
+::-webkit-input-placeholder { font-style: inherit; color: inherit; }
+::-moz-placeholder          { font-style: inherit; color: inherit; }
+:-ms-input-placeholder      { font-style: inherit; color: inherit; }
+
+
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
