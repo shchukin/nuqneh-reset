@@ -2,25 +2,23 @@
 <html lang="ru">
     <head>
         <meta charset="utf-8">
-        <link rel="stylesheet" href="normalize.css">
         <link rel="stylesheet" href="reset.css">
         <title>nuqneH Reset</title>
     </head>
 
+
     <body>
 
 
-
-        <article>article</article>
-        <aside>aside</aside>
-        <footer>footer</footer>
         <header>header</header>
-        <hgroup>hgroup</hgroup>
+        <footer>footer</footer>
         <main>main</main>
+        <article>article</article>
+        <section>section</section>
+        <hgroup>hgroup</hgroup>
+        <aside>aside</aside>
         <menu>menu</menu>
         <nav>nav</nav>
-        <section>section</section>
-
         <figure>
             <div>figure > div</div>
             <figcaption>figure > figcaption</figcaption>
@@ -29,12 +27,6 @@
             <summary>details > summary</summary>
             <div>details > div</div>
         </details>
-
-        <style>
-            .pseudo:before { content: ':before'; }
-            .pseudo:after { content: ':after'; }
-        </style>
-        <div class="pseudo"></div>
 
         <div>div</div>
         <h1>h1</h1>
@@ -47,31 +39,12 @@
         <blockquote>blockquote</blockquote>
         <address>address</address>
         <pre>pre</pre>
+        <form>form</form>
 
-        <span>span</span>
-        <a>a</a>
-        <strong>strong</strong>
-        <b>b</b>
-        <em>em</em>
-        <i>i</i>
-        <s>s</s>
-        <q>q</q>
-        <mark>mark</mark>
-        <cite>cite</cite>
-        <time>time</time>
-        <abbr>abbr</abbr>
-        <dfn>dfn</dfn>
-        <small>small</small>
-        <sub>sub</sub>
-        <sup>sup</sup>
-        <var>var</var>
-        <code>code</code>
-        <samp>samp</samp>
-        <kbd>kbd</kbd>
-        <data value="">data</data>
-        <ins>ins</ins>
-        <del>del</del>
-
+        <fieldset>
+            <legend>fieldset > legend</legend>
+            <div>fieldset > div</div>
+        </fieldset>
 
         <ul>
             <li>ul > li</li>
@@ -105,20 +78,47 @@
             </tfoot>
         </table>
 
-        <form>form</form>
-        <label>label</label>
+        <hr>
 
-        <fieldset>
-            <legend>fieldset > legend</legend>
-            <div>fieldset > div</div>
-        </fieldset>
+        <span>span</span>
+        <a>a</a>
+        <label>label</label>
+        <label for="">label[for]</label>
+        <strong>strong</strong>
+        <b>b</b>
+        <em>em</em>
+        <i>i</i>
+        <s>s</s>
+        <q>q</q>
+        <mark>mark</mark>
+        <cite>cite</cite>
+        <time>time</time>
+        <abbr>abbr</abbr>
+        <abbr title="">abbr[title]</abbr>
+        <dfn>dfn</dfn>
+        <small>small</small>
+        <sup>sup</sup>
+        <sub>sub</sub>
+        <var>var</var>
+        <code>code</code>
+        <samp>samp</samp>
+        <kbd>kbd</kbd>
+        <data value="">data</data>
+        <ins>ins</ins>
+        <del>del</del>
+
+        <style>
+            .pseudo:before { content: ':before'; }
+            .pseudo:after { content: ':after'; }
+        </style>
+        <div class="pseudo"></div>
 
         <input type="text" value="input[type=text]">
         <input type="email" value="input[type=email]">
         <input type="tel" value="input[type=text]">
         <input type="url" value="input[type=url]">
         <input type="search" value="input[type=search]">
-        <input type="password" value="input[type=password]">
+        <!--<input type="password" value="input[type=password]">-->
         <textarea>textarea</textarea>
         <input type="text" placeholder="input:placeholder">
 
@@ -127,8 +127,7 @@
         <input type="button" value="input[type=button]">
         <button>button</button>
 
-
-
+<!--
         <progress value="20" max="100"></progress>
 
         <img src="temp/image-sample.jpg" width="300" height="300" alt="">
@@ -155,7 +154,7 @@
         <video src="temp/video-sample.ogg" controls></video>
 
         <audio src="temp/audio-sample.ogg" controls></audio>
-
+-->
 
     </body>
 </html>
